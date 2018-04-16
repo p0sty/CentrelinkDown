@@ -21,8 +21,6 @@ Each file (seperated by year) contains the result of each call attempt from 20/0
 It's in a comma seperated values format - Header rows are in order:
 Phone number called, Whether the call got through, Test Day of the Week, Test Month, Test Date, Test Time, Test Week Number 
 
-I have also included the actual code I did to create this during the testing that happened.
-
 For your statistical analysis and graphing pleasure!
 
 You can line up the phone numbers by looking at centrelink's phone us page here:
@@ -40,6 +38,15 @@ As of writing the tested services are:
 * MyGov (Also Centrelink Tech Support) 132307
 * Older Australians 132 300
 * Disability/Carers 132 717
+
+I have also included the actual code I did to create this during the testing that happened.
+
+Package requirements (from my old notes getting it to work on CentOS)
+requires Net::SIP -CASE SENSITIVE
+Updated CPAN
+upgrade - packages in CPAN
+Digest::MD5 --installed via yum
+Install Net::DNS
 
 ## License
 
