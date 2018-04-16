@@ -42,10 +42,15 @@ As of writing the tested services are:
 I have also included the actual code I did to create this during the testing that happened.
 
 Package requirements (from my old notes getting it to work on CentOS)
+
 requires Net::SIP -CASE SENSITIVE
+
 Updated CPAN
+
 upgrade - packages in CPAN
+
 Digest::MD5 --installed via yum
+
 Install Net::DNS
 
 ## License
