@@ -32,7 +32,7 @@ SIPproxyport=5060 #proxy port
 
 usage () { 
 echo "calltest -c critical phonenumber"
-echo 'EG calltest -c 15 08820084000'
+echo 'EG calltest -c 15 01189998819991997253'
 echo 'Warning is the warning marker, critical is the critical marker'
 echo 'Returns value as performance data'
 echo 'Warning and critical are whole numbers'
