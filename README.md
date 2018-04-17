@@ -43,6 +43,8 @@ I have also included the actual code I did to create this during the testing tha
 
 Package requirements (from my old notes getting it to work on CentOS)
 
+you need some form of scheduler to repeatedly run the script at the appropriate time - I used Centreon for it's pretty advanced scheduling. wouldn't necessarily reccomend it again but it worked.
+
 requires Net::SIP -CASE SENSITIVE
 
 Updated CPAN
@@ -52,6 +54,8 @@ upgrade - packages in CPAN
 Digest::MD5 --installed via yum
 
 Install Net::DNS
+
+The automated tweets code will come in due course.
 
 ## License
 
